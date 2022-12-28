@@ -1,0 +1,17 @@
+{
+    "name": "elephant/utility",
+    "description": "This packeges will use for utility function in composer projects.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Elephant\\Utility\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Debdulal Baidya (Ovi)"
+        }
+    ],
+    "require": {}
+}
