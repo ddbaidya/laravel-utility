@@ -2,6 +2,7 @@
 
 namespace Elephant\Utility;
 
+use Elephant\Utility\Services\Utility;
 use Illuminate\Support\ServiceProvider;
 
 class UtilityServiceProvider extends ServiceProvider
@@ -13,7 +14,9 @@ class UtilityServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton("utility", function ($app) {
+            return new Utility();
+        });
     }
 
     /**
