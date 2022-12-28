@@ -1,5 +1,5 @@
 {
-    "name": "elephant/utility",
+    "name": "spider/utility",
     "description": "This packeges will use for utility function in composer projects.",
     "type": "library",
     "license": "MIT",
