@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Elephant\\Utility\\' => array($baseDir . '/src'),
+    'Cluster\\Utility\\' => array($baseDir . '/src'),
 );

@@ -1,8 +1,8 @@
 <?php
 
-namespace Elephant\Utility;
+namespace Cluster\Utility;
 
-use Elephant\Utility\Services\Utility;
+use Cluster\Utility\Services\Utility;
 use Illuminate\Support\ServiceProvider;
 
 class UtilityServiceProvider extends ServiceProvider

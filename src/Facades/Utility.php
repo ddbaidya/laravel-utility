@@ -1,6 +1,6 @@
 <?php
 
-namespace Elephant\Utility\Facades;
+namespace Cluster\Utility\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

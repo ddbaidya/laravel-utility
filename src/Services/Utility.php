@@ -1,6 +1,6 @@
 <?php
 
-namespace Elephant\Utility\Services;
+namespace Cluster\Utility\Services;
 
 use Illuminate\Support\Str;
 
