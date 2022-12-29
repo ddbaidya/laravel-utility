@@ -7,11 +7,24 @@ use Illuminate\Support\Str;
 class Utility
 {
     /**
+     * Slug to title generate
+     *
+     * @param string
+     * @param bool $capitalize
+     * @return string
+     */
+    public static function slugToTitle($slug, bool $capitalize=true): string
+    {
+        $title = str_replace('-', ' ', $slug);
+        return ($capitalize) ? ucwords($title) : ucfirst($title);
+    }
+
+    /**
      * Return UUID
      *
      * @return string
      */
-    public function uuid()
+    public static function uuid(): string
     {
         return Str::uuid();
     }
