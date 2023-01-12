@@ -6,6 +6,7 @@ use Illuminate\Support\Str;
 
 class Utility
 {
+    use Server;
     /**
      * Slug to title generate
      *
@@ -13,7 +14,7 @@ class Utility
      * @param bool $capitalize
      * @return string
      */
-    public static function slugToTitle($slug, bool $capitalize=true): string
+    public static function slugToTitle($slug, bool $capitalize = true): string
     {
         $title = str_replace('-', ' ', $slug);
         return ($capitalize) ? ucwords($title) : ucfirst($title);
