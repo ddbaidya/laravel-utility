@@ -4,7 +4,7 @@ namespace Cluster\Utility\Services;
 
 class Utility
 {
-    use Server, Client, St;
+    use Server, St;
     /**
      * Slug to title generate
      *
