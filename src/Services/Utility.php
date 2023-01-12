@@ -2,11 +2,9 @@
 
 namespace Cluster\Utility\Services;
 
-use Illuminate\Support\Str;
-
 class Utility
 {
-    use Server;
+    use Server, Client, St;
     /**
      * Slug to title generate
      *
