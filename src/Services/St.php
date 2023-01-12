@@ -25,7 +25,7 @@ trait St
     }
 
     /**
-     * Given a string string, remove every occurrence of the string $needle
+     * Remove every occurrence of the string $needle from given string
      *
      * @param string $string
      * @param string $needle
@@ -40,5 +40,17 @@ trait St
         }
 
         return $string;
+    }
+
+    /**
+     * Remove every occurrence of the word $needle from given string
+     *
+     * @param string $string
+     * @param string $needle
+     * @return string
+     */
+    public static function withOutWord($string, $needle)
+    {
+        return preg_replace("/\b{$needle}\b/i", '', $string);
     }
 }
